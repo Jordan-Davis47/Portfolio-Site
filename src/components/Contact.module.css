@@ -1,0 +1,38 @@
+.form {
+	width: 50%;
+	max-width: 500px;
+	border: 2px solid red;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 20px 60px;
+	margin: 0 auto;
+	background-color: rgb(18, 18, 18);
+}
+
+.form h3 {
+	color: white;
+	font-size: 1.5em;
+}
+
+.form input {
+	width: 80%;
+	max-width: 80%;
+}
+
+.form textarea {
+	width: 80%;
+	height: 40%;
+}
+
+.form label {
+	color: white;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.submit {
+	margin-top: 30px !important;
+}

@@ -1,0 +1,47 @@
+.skillsSection {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 5vh 0;
+	color: white;
+	margin: 10vh 0;
+}
+
+.h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.skillsList {
+	margin: 0 auto;
+	border: 2px solid black;
+	align-items: center;
+	border-radius: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.5rem;
+	width: 70%;
+	max-width: 750px;
+	box-shadow: 6px 6px 6px 0px black;
+	background-color: red;
+	position: relative;
+	top: 10vh;
+}
+
+.skillsList div {
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 18%;
+	justify-content: space-evenly;
+	margin: 1% 0 1% 0;
+	padding: 1%;
+	background-color: black;
+	border: 2px solid black;
+	box-sizing: border-box;
+}

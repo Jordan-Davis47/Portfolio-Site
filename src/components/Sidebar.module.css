@@ -1,0 +1,155 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 20vh;
+}
+
+.buttonContainer {
+	display: flex;
+}
+
+.buttonContainer button {
+	height: 50px;
+	background: none;
+	color: red;
+	border: 1px solid rgb(135, 131, 131);
+	width: 20vw;
+}
+
+.buttonContainer button:hover {
+	background-color: rgb(45, 44, 44);
+	cursor: pointer;
+	color: rgb(140, 140, 140);
+}
+
+.buttonContainer button:nth-of-type(1) {
+	border-top: solid 1px rgb(135, 131, 131);
+}
+
+.sidebarTop {
+	background-color: black;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+	align-items: center;
+	border: 1px solid rgb(135, 131, 131);
+}
+
+.sidebarTop p {
+	color: rgb(140, 140, 140);
+	text-align: center;
+	padding-bottom: 10px;
+	overflow-wrap: break-word;
+	font-size: 1em;
+	position: relative;
+	right: 10%;
+}
+
+.jdLogo {
+	width: 4.5em;
+	height: 4.5em;
+}
+
+.linksContainer {
+	width: 20vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid rgb(135, 131, 131);
+}
+
+.linksContainer svg {
+	width: 1.5em;
+}
+
+.linksContainer svg:hover {
+	color: rgb(140, 140, 140);
+	cursor: pointer;
+}
+
+@media (max-width: 400px) {
+	.buttonContainer button {
+		font-size: 14px;
+	}
+
+	.buttonContainer button:nth-of-type(1) {
+		display: none;
+	}
+
+	.buttonContainer button:nth-of-type(4) {
+		word-break: break-all;
+	}
+}
+
+@media (max-width: 550px) {
+	.jdLogo {
+		width: 100px;
+	}
+	.sidebar {
+		width: 100%;
+		height: 20%;
+	}
+}
+
+@media (min-width: 550px) {
+	.sidebar {
+		border: 2px solid black;
+		background-color: rgb(31, 31, 31);
+		background-color: rgb(18, 18, 18);
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 20%;
+		max-width: 150px;
+		min-width: 100px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sidebarTop {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+		border: none;
+	}
+
+	.sidebarTop p {
+		right: 0;
+	}
+
+	.buttonContainer {
+		height: 35%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 40%;
+	}
+
+	.buttonContainer button {
+		width: 100%;
+		border: none;
+		border-bottom: solid 1px rgb(135, 131, 131);
+	}
+
+	.linksContainer {
+		border: none;
+		width: 100%;
+		margin-top: 30%;
+		position: relative;
+		top: 70%;
+	}
+
+	.linksContainer svg {
+		width: 2em;
+	}
+
+	.jdLogo {
+		width: 9em;
+		height: 9em;
+	}
+}

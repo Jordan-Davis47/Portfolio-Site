@@ -1,0 +1,20 @@
+.Typewriter {
+	margin: 3vh 0 3vh 0;
+	display: inline-block;
+}
+
+.Typewriter::first-letter {
+	color: red;
+	font-weight: bold;
+}
+
+.Typewriter__wrapper {
+	color: white;
+	font-size: 7vw;
+}
+
+@media (min-width: 1000px) {
+	.Typewriter__wrapper {
+		font-size: 4vw;
+	}
+}

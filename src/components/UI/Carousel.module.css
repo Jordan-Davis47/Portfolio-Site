@@ -1,0 +1,40 @@
+/* @import "../../App.css"; */
+
+.slide {
+	width: 100%;
+	height: 100%;
+}
+
+.image {
+	transition: all 0.5s ease-in;
+}
+
+.hideSlide {
+	display: none;
+}
+
+.arrowContainer {
+	display: flex;
+	justify-content: space-between;
+	width: 105%;
+	position: absolute;
+	left: -2.5%;
+	top: 45%;
+}
+
+.arrowContainer svg {
+	color: red;
+	background-color: rgb(18, 18, 18);
+	border: 1px solid rgb(18, 18, 18);
+	box-sizing: border-box;
+	border-radius: 50%;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.arrowContainer svg:hover {
+	color: rgb(18, 18, 18);
+	background-color: red;
+	border-color: red;
+	opacity: 1;
+}
