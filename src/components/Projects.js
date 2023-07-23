@@ -8,6 +8,7 @@ import travelpalsImg from "../images/project-screenshots/travelpals-screenshot.W
 import cardcreaturesImg from "../images/project-screenshots/cardcreatures-screenshot.Webp";
 import blogImg from "../images/project-screenshots/blog-screenshot.Webp";
 import ipTrackerImg from "../images/project-screenshots/ipTracker-screenshot.Webp";
+import Button from "./UI/Button";
 
 const projects = [
 	{
@@ -76,9 +77,9 @@ const Projects = forwardRef((props, ref) => {
 					</Fragment>
 				)}
 			</div>
-			<button onClick={showMoreHandler} className={classes.moreProjectsBtn}>
+			<Button onClick={showMoreHandler} className={classes.moreProjectsBtn}>
 				{showMore ? "Less Projects" : "More Projects"}
-			</button>
+			</Button>
 		</section>
 	);
 });
