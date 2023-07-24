@@ -11,14 +11,14 @@ import ipTrackerImg from "../images/project-screenshots/ipTracker-screenshot.Web
 import Button from "./UI/Button";
 
 const projects = [
-	{
-		name: "Card Creatures",
-		description: "A full stack tactical playing card game with monster & magic cards, inspired by the Yu-Gi-Oh trading card game. This is a MERN stack app with React Redux Toolkit",
-		img: cardcreaturesImg,
-		github: "https://github.com/Jordan-Davis47/Card-Creatures",
-		link: "https://cardcreatures.vercel.app",
-		tags: ["ReactJS", "MongoDB", "NodeJS", "ExpressJS", "Redux Toolkit", "CSS"],
-	},
+	// {
+	// 	name: "Card Creatures",
+	// 	description: "A full stack tactical playing card game with monster & magic cards, inspired by the Yu-Gi-Oh trading card game. This is a MERN stack app with React Redux Toolkit",
+	// 	img: cardcreaturesImg,
+	// 	github: "https://github.com/Jordan-Davis47/Card-Creatures",
+	// 	link: "https://cardcreatures.vercel.app",
+	// 	tags: ["ReactJS", "MongoDB", "NodeJS", "ExpressJS", "Redux Toolkit", "CSS"],
+	// },
 	{
 		name: "TravelPals",
 		description: "Full stack social media app where users can create accounts, share travel locations, like and comment on other users posts. full user CRUD system with image upload",

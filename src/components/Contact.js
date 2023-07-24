@@ -26,7 +26,6 @@ const Contact = (props) => {
 	};
 
 	const sendEmail = (e) => {
-		console.log("send");
 		e.preventDefault();
 
 		if (enteredName.trim() === "" || (!enteredEmail.includes("@") && enteredEmail.trim() === "") || enteredMessage.trim() === "") {
