@@ -6,19 +6,21 @@ import classes from "./Projects.module.css";
 import portfolio from "../images/project-screenshots/portfolio-screenshot.Webp";
 import travelpalsImg from "../images/project-screenshots/travelpals-screenshot.Webp";
 import cardcreaturesImg from "../images/project-screenshots/cardcreatures-screenshot.Webp";
+import ccImg from "../images/project-screenshots/CC screenshot.Webp";
+
 import blogImg from "../images/project-screenshots/blog-screenshot.Webp";
 import ipTrackerImg from "../images/project-screenshots/ipTracker-screenshot.Webp";
 import Button from "./UI/Button";
 
 const projects = [
-	// {
-	// 	name: "Card Creatures",
-	// 	description: "A full stack tactical playing card game with monster & magic cards, inspired by the Yu-Gi-Oh trading card game. This is a MERN stack app with React Redux Toolkit",
-	// 	img: cardcreaturesImg,
-	// 	github: "https://github.com/Jordan-Davis47/Card-Creatures",
-	// 	link: "https://cardcreatures.vercel.app",
-	// 	tags: ["ReactJS", "MongoDB", "NodeJS", "ExpressJS", "Redux Toolkit", "CSS"],
-	// },
+	{
+		name: "Card Creatures",
+		description: "A full stack tactical playing card game with monster & magic cards, inspired by the Yu-Gi-Oh trading card game. This is a MERN stack app with React Redux Toolkit",
+		img: ccImg,
+		github: "https://github.com/Jordan-Davis47/CardCreatures",
+		link: "https://cardcreatures.vercel.app",
+		tags: ["ReactJS", "MongoDB", "NodeJS", "ExpressJS", "Redux Toolkit", "CSS"],
+	},
 	{
 		name: "TravelPals",
 		description: "Full stack social media app where users can create accounts, share travel locations, like and comment on other users posts. full user CRUD system with image upload",
