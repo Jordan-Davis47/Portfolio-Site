@@ -5,7 +5,6 @@ import classes from "./Projects.module.css";
 
 import portfolio from "../images/project-screenshots/portfolio-screenshot.Webp";
 import travelpalsImg from "../images/project-screenshots/travelpals-screenshot.Webp";
-import cardcreaturesImg from "../images/project-screenshots/cardcreatures-screenshot.Webp";
 import ccImg from "../images/project-screenshots/CC screenshot.Webp";
 
 import blogImg from "../images/project-screenshots/blog-screenshot.Webp";
@@ -15,7 +14,7 @@ import Button from "./UI/Button";
 const projects = [
 	{
 		name: "Card Creatures",
-		description: "A full stack tactical playing card game with monster & magic cards, inspired by the Yu-Gi-Oh trading card game. This is a MERN stack app with React Redux Toolkit",
+		description: "A full stack tactical playing card game, with user accounts, authentication and database integration through a dedicated backend. This is a MERN stack app with Redux Toolkit",
 		img: ccImg,
 		github: "https://github.com/Jordan-Davis47/CardCreatures",
 		link: "https://cardcreatures.vercel.app",
@@ -23,7 +22,7 @@ const projects = [
 	},
 	{
 		name: "TravelPals",
-		description: "Full stack social media app where users can create accounts, share travel locations, like and comment on other users posts. full user CRUD system with image upload",
+		description: "Full stack social media app where users can create accounts, share travel locations, like and comment on other users posts. full user CRUD system with user authentication and image upload",
 		img: travelpalsImg,
 		link: "https://travelpals.vercel.app/places",
 		github: "https://github.com/Jordan-Davis47/Travelpals",
@@ -31,7 +30,7 @@ const projects = [
 	},
 	{
 		name: "Personal Blog Site",
-		description: "A personal blog site where I post about things Ive learnt or small tutotial posts about different technologies and techniques",
+		description: "A personal blog site where I post about web development, tutorials and about different technologies and techniques",
 		link: "https://jddevelopmentblog.vercel.app/",
 		github: "https://github.com/Jordan-Davis47/My-Blog-Site",
 		img: blogImg,
@@ -39,7 +38,7 @@ const projects = [
 	},
 	{
 		name: "Personal Portfolio Site",
-		description: "My portfolio site that you are currently visiting",
+		description: "My web development portfolio site that you are currently visiting",
 		img: portfolio,
 		link: "https://jd-developer.com/",
 		github: "https://github.com/Jordan-Davis47/My-Portfolio",
@@ -50,7 +49,7 @@ const projects = [
 const moreProjects = [
 	{
 		name: "IP-Address Tracker",
-		description: "A simple IP address tracker that shows region of entered IP address using mapbox API & Ipify API",
+		description: "An IP address tracker that shows region of entered IP address using mapbox API & Ipify API",
 		link: "https://jddevelopment-ip-adress-tracker.vercel.app/",
 		github: "https://github.com/Jordan-Davis47/IP-Address-Tracker",
 		img: ipTrackerImg,
