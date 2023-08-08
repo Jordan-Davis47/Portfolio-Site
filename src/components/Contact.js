@@ -69,7 +69,7 @@ const Contact = (props) => {
 			{showMessage && <MessageBox onClick={props.hide} message={message} />}
 			{!showMessage && (
 				<form ref={form} onSubmit={sendEmail} className={classes.form}>
-					<h3>Get In Touch</h3>
+					<h3>Contact Me</h3>
 					<label>Name</label>
 					<input type="text" name="user_name" onChange={nameInputChangeHandler} />
 					<label>Email</label>
